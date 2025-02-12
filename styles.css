@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+body{
+    background-color: hsla(237, 91%, 29%, 0.763);
+    font-family: 'Poppins', sans-serif;
+}
+.card{
+    border-radius: 30px;
+    background: linear-gradient(to top, #353cc1, #3b7be3)
+}
+.battery{
+    position: absolute;
+    top: 2px;
+    right: 10%;
+    z-index: 2;
+}
+
+.wifi {
+    position: absolute;
+    top: 2px;
+    right: 17%;
+    z-index: 2;
+}
+
+.signal {
+    position: absolute;
+    top: 2px;
+    right: 22%;
+    z-index: 2;
+}
+
+.wifi ,.battery, .signal{  
+    filter: invert(1);
+} 
+
+.time{
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    font-size: 9px;
+}
+
+.next-container{
+    display: flex;
+    gap: 1px;
+    margin-left: 5px;
+}
+
+/* the next icons nevigation */
+
+.next1{
+    background-color: white;
+    border: 1px solid white;
+    height: 1px;
+    width: 20px;
+    border-radius: 15px;
+}
+
+.next2{
+    background-color:rgba(255, 255, 255, 0.656);
+    border: 1px solid white;
+    height: 1px;
+    width: 4px;
+    border-radius: 15px;
+}
+
+.next3{
+    background-color:rgba(255, 255, 255, 0.656);
+    border: 1px solid white;
+    height: 1px;
+    width: 4px;
+    border-radius: 15px;
+}
+
+.next11{
+    background-color: white;
+    border: 1px solid white;
+    height: 1px;
+    width: 4px;
+    border-radius: 15px;
+}
+
+.next22{
+    background-color:rgba(255, 255, 255, 0.656);
+    border: 1px solid white;
+    height: 1px;
+    width: 20px;
+    border-radius: 15px;
+}
+
+.next33{
+    background-color:rgba(255, 255, 255, 0.656);
+    border: 1px solid white;
+    height: 1px;
+    width: 4px;
+    border-radius: 15px;
+}
+.next111{
+    background-color: white;
+    border: 1px solid white;
+    height: 1px;
+    width: 4px;
+    border-radius: 15px;
+}
+
+.next222{
+    background-color:rgba(255, 255, 255, 0.656);
+    border: 1px solid white;
+    height: 1px;
+    width: 4px;
+    border-radius: 15px;
+}
+
+.next333{
+    background-color:rgba(255, 255, 255, 0.656);
+    border: 1px solid white;
+    height: 1px;
+    width: 20px;
+    border-radius: 15px;
+}
+
+.skip{
+    font-size: 10px;
+    position: absolute;
+    top: 36px;
+    right: 16px; 
+}
+ /* heading and descriptions */
+#heading1{
+    font-size: 20px;
+}
+
+#paragraph1{
+font-size: 14px;
+}
+
+span{
+    font-weight: bolder;
+}
+
+.btn{
+    padding: 7px;
+    margin-bottom: -15px;
+}
+
+/* slide up to go home button */
+
+.home-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: -44px;
+}
+
+#page3-login{
+    margin-bottom: -10px;
+}
+
+.home{
+    background-color: white;
+    border: 1px solid white;
+    height: 3px;
+    width: 80px;
+    border-radius: 20px;
+}
+
+/* for the login form */
+
+#cont1{
+    background-color: #e5e7e9 ;
+    border: 3px solid #aeb6bf ;
+}
+
+.eye-icon {  
+    cursor: pointer;  
+    position: absolute;  
+    right: 10px;  
+    top: 52%;  
+    transform: translateY(-50%);  
+    z-index: 2;  
+}  
+.input-group {   
+    position: relative;   
+}
+
+.line-container {  
+    display: flex;  
+    align-items: center;  
+    text-align: center;
+}  
+.line {  
+  flex-grow: 1;
+border-top: 3px solid #d7d8da;  
+}  
+.line-text { 
+    padding: 0 10px;  
+}  
+
+
+/* for the registration */
+
+
+.box-area{
+    width: 930px;
+}
+
+/*------------ Right box ------------*/
+
+.right-box{
+    padding: 40px 30px 40px 40px;
+}
+
+/*------------ Custom Placeholder ------------*/
+
+::placeholder{
+    font-size: 16px;
+}
+
+.rounded-4{
+    border-radius: 20px;
+}
+.rounded-5{
+    border-radius: 30px;
+}
+
+
+/*------------ For small screens------------*/
+
+@media only screen and (max-width: 768px){
+    #reg{
+      margin-top: 3%;
+    }
+ }
+
+@media only screen and (max-width: 768px){
+    
+
+     .box-area{
+        margin: 0 5px;
+
+     }
+     .left-box{
+        height: 100px;
+        overflow: hidden;
+     }
+     .right-box{
+        padding: 20px;
+     }
+
+}
